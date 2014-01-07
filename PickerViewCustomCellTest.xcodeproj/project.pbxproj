@@ -21,6 +21,13 @@
 		D2982B3D187B162D004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982B1F187B162D004E8886 /* UIKit.framework */; };
 		D2982B45187B162D004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982B43187B162D004E8886 /* InfoPlist.strings */; };
 		D2982B47187B162D004E8886 /* PickerViewCustomCellTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982B46187B162D004E8886 /* PickerViewCustomCellTestTests.m */; };
+		D2982B57187B1747004E8886 /* Basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982B52187B1747004E8886 /* Basketball.png */; };
+		D2982B58187B1747004E8886 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982B53187B1747004E8886 /* Football.png */; };
+		D2982B59187B1747004E8886 /* Rugbyball.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982B54187B1747004E8886 /* Rugbyball.png */; };
+		D2982B5A187B1747004E8886 /* Wilsonball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2982B55187B1747004E8886 /* Wilsonball.jpg */; };
+		D2982B5D187B179C004E8886 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982B5C187B179C004E8886 /* Product.m */; };
+		D2982B60187B17E1004E8886 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982B5F187B17E1004E8886 /* ProductCell.m */; };
+		D2982B64187B3C01004E8886 /* Baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982B63187B3C01004E8886 /* Baseball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		D2982B42187B162D004E8886 /* PickerViewCustomCellTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerViewCustomCellTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982B44187B162D004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982B46187B162D004E8886 /* PickerViewCustomCellTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewCustomCellTestTests.m; sourceTree = "<group>"; };
+		D2982B52187B1747004E8886 /* Basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Basketball.png; path = Resources/Basketball.png; sourceTree = "<group>"; };
+		D2982B53187B1747004E8886 /* Football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Football.png; path = Resources/Football.png; sourceTree = "<group>"; };
+		D2982B54187B1747004E8886 /* Rugbyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rugbyball.png; path = Resources/Rugbyball.png; sourceTree = "<group>"; };
+		D2982B55187B1747004E8886 /* Wilsonball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wilsonball.jpg; path = Resources/Wilsonball.jpg; sourceTree = "<group>"; };
+		D2982B5B187B179C004E8886 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		D2982B5C187B179C004E8886 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		D2982B5E187B17E1004E8886 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		D2982B5F187B17E1004E8886 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		D2982B63187B3C01004E8886 /* Baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Baseball.png; path = Resources/Baseball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,7 @@
 		D2982B0F187B162D004E8886 = {
 			isa = PBXGroup;
 			children = (
+				D2982B50187B1737004E8886 /* Resources */,
 				D2982B21187B162D004E8886 /* PickerViewCustomCellTest */,
 				D2982B40187B162D004E8886 /* PickerViewCustomCellTestTests */,
 				D2982B1A187B162D004E8886 /* Frameworks */,
@@ -112,6 +129,10 @@
 		D2982B21187B162D004E8886 /* PickerViewCustomCellTest */ = {
 			isa = PBXGroup;
 			children = (
+				D2982B5B187B179C004E8886 /* Product.h */,
+				D2982B5C187B179C004E8886 /* Product.m */,
+				D2982B5E187B17E1004E8886 /* ProductCell.h */,
+				D2982B5F187B17E1004E8886 /* ProductCell.m */,
 				D2982B2A187B162D004E8886 /* AppDelegate.h */,
 				D2982B2B187B162D004E8886 /* AppDelegate.m */,
 				D2982B2D187B162D004E8886 /* Main.storyboard */,
@@ -150,6 +171,18 @@
 				D2982B43187B162D004E8886 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2982B50187B1737004E8886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2982B63187B3C01004E8886 /* Baseball.png */,
+				D2982B52187B1747004E8886 /* Basketball.png */,
+				D2982B53187B1747004E8886 /* Football.png */,
+				D2982B54187B1747004E8886 /* Rugbyball.png */,
+				D2982B55187B1747004E8886 /* Wilsonball.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2982B34187B162D004E8886 /* Images.xcassets in Resources */,
+				D2982B59187B1747004E8886 /* Rugbyball.png in Resources */,
+				D2982B58187B1747004E8886 /* Football.png in Resources */,
+				D2982B5A187B1747004E8886 /* Wilsonball.jpg in Resources */,
 				D2982B26187B162D004E8886 /* InfoPlist.strings in Resources */,
+				D2982B64187B3C01004E8886 /* Baseball.png in Resources */,
 				D2982B2F187B162D004E8886 /* Main.storyboard in Resources */,
+				D2982B57187B1747004E8886 /* Basketball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2982B60187B17E1004E8886 /* ProductCell.m in Sources */,
 				D2982B32187B162D004E8886 /* ViewController.m in Sources */,
+				D2982B5D187B179C004E8886 /* Product.m in Sources */,
 				D2982B2C187B162D004E8886 /* AppDelegate.m in Sources */,
 				D2982B28187B162D004E8886 /* main.m in Sources */,
 			);
